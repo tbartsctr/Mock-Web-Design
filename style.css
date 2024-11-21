@@ -1,0 +1,241 @@
+//.backgroundImage{
+    background-image: url('https://wallpapercave.com/wp/wp10232616.jpg');
+    border: solid white 2px;
+    border-width: 0px;
+    height: 400vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+    
+body{ background-image: url('https://wallpapercave.com/wp/wp10232616.jpg');
+    border: solid white 2px;
+    border-width: 0px;
+    height: 400vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+    
+}
+
+.navBar{
+    //border: solid white 2px;
+    width: 80%;
+    height: 250px;
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    text-align: center;
+    
+    
+}
+
+.navBar2{
+
+    border: solid transparent 2px;
+    height: 100vh;
+    width: 10vh;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+//.sideNavBarHeartLogo{
+    width: 140%;
+    height: 10%;
+    margin-top: 20%;
+    
+    
+    
+}
+
+
+.sideNavBarTreeLogo{
+    margin-top: 50%;
+    
+
+}
+
+.sideNavBarTreeLogo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.sideNavBarEyeLogo{
+    width:100%;
+    height: 100%;
+    margin-top: 0%;
+}
+
+.sideNavBarEyeLogo:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+
+}
+
+.sideNavBarBirdLogo{
+    margin-top: 50%;
+}
+ 
+.sideNavBarBirdLogo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.navBarTriangle{
+    border: solid white 2px;
+    width: 1250px;
+    height: 1250px;
+    border-right: solid whitesmoke 4px;
+    border-left: solid transparent 2px;
+    border-bottom: solid transparent;
+    border-top: solid whitesmoke 4px;
+    transform: rotate(315deg);
+    margin-bottom: 0%;
+    margin-top: 122%;
+    margin-left: 16.5%;
+
+}
+
+h1{
+    font-family: 'House of Dragon';
+    //font-family:"Meie Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+h3{
+    font-family: 'Written';
+    font-weight: 400;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-top: 0%;
+    position: relative;
+}
+@font-face {
+    font-family: 'House of Dragon';
+    src: url('Fonts/walk-da-walk-one-font/WalkDaWalkOne-EPmj.ttf');
+}
+
+@font-face {
+    font-family: 'Written';
+    src: url('Fonts/sculptors-hand-font/SculptorsHand-qKGd.ttf');
+}
+
+@font-face {
+    font-family: 'Gotika';
+    src: url('Fonts/gotika-black-font/GotikaBlackPersonalUseRegular-3zvY3.otf');
+}
+    
+
+.searchBar{
+    margin-left: 75%;
+    margin-top: 1%;
+    display: flex;
+    gap: 10px;
+   
+    
+
+}
+
+.searchBar form{
+    display: flex;
+    min-width: 50px;
+    max-width: 220px;
+}
+
+
+
+
+
+.searchBar input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    
+
+}
+
+button{
+    padding: 5px;
+      font-size: 16px;
+      font-family: 'Gotika';
+      background-color: whitesmoke;
+      color: black;
+      border: none;
+      border-radius: 4px;
+      margin-right: 5px;
+      cursor: pointer;
+      //display: flex;
+      
+      
+      
+}
+
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.menuFont{
+    font-family: 'Gotika';
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 12px;
+    border: solid whitesmoke 2px;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    
+    
+}
+
+.menuFont:hover{
+    
+}
+
+.dropdownMenu{
+    //overflow: hidden;
+
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+table{
+    color: whitesmoke;
+    margin-top: 8%;
+    margin-left: 43%;
+}
+
+#idrisElba{
+    margin-left: 15%;
+}
+
+
+
+
